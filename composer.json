@@ -1,0 +1,31 @@
+{
+    "name": "abbas-adv/fungsi_php",
+    "description": "Belajar PHP dari dasar disertai dengan bootstrap dan jQuery",
+    "keywords": [
+        "bootstrap",
+        "belajar",
+        "php"
+    ],
+    "homepage": "https://github.com/AbbasAdv/fungsi_php",
+    "type": "basic",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/AbbasAdv/fungsi_php/issues",
+        "source": "https://github.com/AbbasAdv/fungsi_php"
+    },
+    "authors": [
+        {
+            "name": "Abbas",
+            "homepage": "http://sintret.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "minimum-stability": "dev",
+     "autoload": {
+        "psr-4": {
+            "abbas-adv\\util\\": ""
+        }
+    }
+}
